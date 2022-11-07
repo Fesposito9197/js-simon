@@ -21,7 +21,7 @@ while (number.length < 5 ) {
 }
 // imposto un timer che dopo 30 secondi fa sparire l'array con i numeri generati nel mio html 
 setTimeout(function(){
-    cpuNumber.style.display = 'none'
+    cpuNumber.remove();
 
 }, 30000)
 // creo un ciclo per l'inserimento dei numeri dell'utente 
